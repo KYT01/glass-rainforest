@@ -18,7 +18,7 @@ export default function CategoryPage({ params }: CategoryParams) {
         {posts.map((post) => {
           return (
             <li key={post.slug}>
-              <Image src={post.imageSrc} width={400} height={400} />
+              <Image src={post.imageSrc} alt="nail" width={400} height={400} />
               <Link href={`/blog/${post.slug}`}>{post.title}</Link>
             </li>
           );

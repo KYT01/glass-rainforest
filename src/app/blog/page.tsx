@@ -47,6 +47,7 @@ function BlogPage() {
                 <Image
                   className="nail"
                   src={post.imageSrc}
+                  alt="nail"
                   width={400}
                   height={400}
                 />
