@@ -44,7 +44,6 @@ export default function CategoryPage({ params }: CategoryParams) {
               </li>
             </div>
           ))}
-          ;
         </ul>
       </div>
     </div>

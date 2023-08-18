@@ -31,6 +31,15 @@ const POSTS = [
     content:
       "Deep in the Amazon Rainforest, an enigmatic figure reigns—the Amazonian White Uakari Monkey (Cacajao spp.). Its striking white coat and vivid red face have woven a tapestry of myths among indigenous cultures. Yet, this primate is more than folklore. Feeding on fruits and seeds, it plays a vital role in the rainforest's rhythm, a living thread in the rich narrative of this complex ecosystem. Journey with us to explore the captivating realm of the Amazon's White Uakari Monkey, where myths and reality converge, adding another layer to the remarkable story of the rainforest.",
   },
+  {
+    title:
+      "Mystique of the Pink Amazon River Dolphin: Navigating Myths and Reality",
+    slug: "dolphin",
+    category: "ANIMALS",
+    imageSrc: "/dolphin.png",
+    content:
+      "In the watery labyrinth of the Amazon River, an enchanting figure emerges—the Pink Amazon River Dolphin (Inia geoffrensis). With its soft hues and captivating aura, this remarkable creature has woven itself into the fabric of Amazonian lore, where myth and reality intertwine in fascinating ways. The Pink Amazon River Dolphin, also known as the boto has long captivated the imagination of those who call the rainforest home. Its rosy complexion and graceful presence have given rise to tales of shape-shifting and mystical powers among indigenous communities. Beyond the legends, the Pink Amazon River Dolphin holds a vital role in the river's intricate ecosystem, feeding on fish and crustaceans and influencing the river's delicate balance. Embedded in the cultural tapestry of Amazonian communities, the Pink Dolphin is both revered and respected, symbolizing the deep connection between the people and the river that sustains them. Scientists continue to unravel the mysteries of the Pink Amazon River Dolphin, studying its behaviors, communication, and role in maintaining aquatic biodiversity. Join us as we embark on a journey into the heart of the Amazon River, where the Pink Dolphin dances on the edge of myth and science—a world where enchantment meets reality, and the river's secrets unfold with each ripple.",
+  },
 ];
 
 // get ALL the posts (simulating an API or database)
