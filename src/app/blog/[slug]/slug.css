@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  margin: 10%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+  border-style: solid;
+  border-color: rgba(240, 248, 255, 0.68);
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 20px;
+  background: linear-gradient(70deg, transparent, rgba(255, 255, 255, 0.163));
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.327);
+}
+
+a {
+  width: 400px;
+}
+
+h3 {
+  margin-top: 5%;
+  font-size: 30px;
+}
+
+.info {
+  padding: 30px;
+  margin-top: 20px;
+}
