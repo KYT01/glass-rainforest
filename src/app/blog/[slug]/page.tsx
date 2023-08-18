@@ -19,6 +19,7 @@ export function generateStaticParams() {
   return posts.map((post) => {
     return {
       slug: post.slug,
+      key: post.slug,
     };
   });
 }
