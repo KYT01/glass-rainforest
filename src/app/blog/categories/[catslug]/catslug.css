@@ -1,0 +1,39 @@
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  border-style: solid;
+  border-color: rgba(240, 248, 255, 0.68);
+  border-width: 1px;
+  border-radius: 30px;
+  padding: 20px;
+  background: linear-gradient(70deg, transparent, rgba(255, 255, 255, 0.163));
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.327);
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.thumbnail-grid {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.thumb {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+.nailimg {
+  border-radius: 20px;
+}
+
+#cattitle {
+  font-size: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}

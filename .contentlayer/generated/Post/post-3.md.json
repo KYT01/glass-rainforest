@@ -1,0 +1,19 @@
+{
+  "title": "Whispers of the Canopy - The Enigmatic White Uakari Monkey",
+  "date": "2021-12-24T00:00:00.000Z",
+  "category": "MYTHS",
+  "body": {
+    "raw": "\nDeep in the Amazon Rainforest, an enigmatic figure reigns—the Amazonian White Uakari Monkey (Cacajao spp.). Its striking white coat and vivid red face have woven a tapestry of myths among indigenous cultures. Yet, this primate is more than folklore. Feeding on fruits and seeds, it plays a vital role in the rainforest's rhythm, a living thread in the rich narrative of this complex ecosystem. Journey with us to explore the captivating realm of the Amazon's White Uakari Monkey, where myths and reality converge, adding another layer to the remarkable story of the rainforest.\n\n![Monkey](/monkey.png)\n",
+    "html": "<p>Deep in the Amazon Rainforest, an enigmatic figure reigns—the Amazonian White Uakari Monkey (Cacajao spp.). Its striking white coat and vivid red face have woven a tapestry of myths among indigenous cultures. Yet, this primate is more than folklore. Feeding on fruits and seeds, it plays a vital role in the rainforest's rhythm, a living thread in the rich narrative of this complex ecosystem. Journey with us to explore the captivating realm of the Amazon's White Uakari Monkey, where myths and reality converge, adding another layer to the remarkable story of the rainforest.</p>\n<p><img src=\"/monkey.png\" alt=\"Monkey\"></p>"
+  },
+  "_id": "post-3.md",
+  "_raw": {
+    "sourceFilePath": "post-3.md",
+    "sourceFileName": "post-3.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "post-3"
+  },
+  "type": "Post",
+  "slug": "post-3"
+}

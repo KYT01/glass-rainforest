@@ -1,0 +1,76 @@
+{
+  "cacheItemsMap": {
+    "post-1.md": {
+      "document": {
+        "title": "Mysteries Unveiled - The Amazonian Jaguar",
+        "date": "2021-12-24T00:00:00.000Z",
+        "category": "ANIMALS",
+        "body": {
+          "raw": "\nIn the heart of the Amazon Rainforest prowls a majestic and enigmatic creature known as the Amazonian Jaguar (Panthera onca). This apex predator, cloaked in sleek, spotted fur, commands the dense foliage with a regal presence. With powerful limbs and sharp senses, it seamlessly navigates the tangled undergrowth, embodying the untamed spirit of the rainforest. Revered by indigenous cultures and shrouded in myth, the Amazonian Jaguar symbolizes both the mystery and resilience of this biodiverse ecosystem.\n\n![Jaguar](/jaguar.png)\n",
+          "html": "<p>In the heart of the Amazon Rainforest prowls a majestic and enigmatic creature known as the Amazonian Jaguar (Panthera onca). This apex predator, cloaked in sleek, spotted fur, commands the dense foliage with a regal presence. With powerful limbs and sharp senses, it seamlessly navigates the tangled undergrowth, embodying the untamed spirit of the rainforest. Revered by indigenous cultures and shrouded in myth, the Amazonian Jaguar symbolizes both the mystery and resilience of this biodiverse ecosystem.</p>\n<p><img src=\"/jaguar.png\" alt=\"Jaguar\"></p>"
+        },
+        "_id": "post-1.md",
+        "_raw": {
+          "sourceFilePath": "post-1.md",
+          "sourceFileName": "post-1.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-1"
+        },
+        "type": "Post",
+        "slug": "post-1"
+      },
+      "documentHash": "1692363109208",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "post-2.md": {
+      "document": {
+        "title": "Blossom of Intrigue - The Corpse Flower",
+        "date": "2021-12-24T00:00:00.000Z",
+        "category": "FAUNA",
+        "body": {
+          "raw": "\nNestled within the Amazon Rainforest's verdant embrace, the Amazonian Corpse Flower (Rafflesia spp.) emerges as a botanical wonder of rare intrigue. This mesmerizing flower, shrouded in mystery, is renowned for its colossal size and captivating fragrance, akin to the scent of decomposing matter. With petals unfurling like deep red tapestries, the Corpse Flower remains a biological enigma, drawing scientists and nature enthusiasts into its captivating realm. Revered by indigenous cultures and hailed as both fascinating and bizarre, this remarkable creation offers a glimpse into the intricate interplay of life and decay within the Rainforest.\n\n![Corpse](/corpse.png)\n",
+          "html": "<p>Nestled within the Amazon Rainforest's verdant embrace, the Amazonian Corpse Flower (Rafflesia spp.) emerges as a botanical wonder of rare intrigue. This mesmerizing flower, shrouded in mystery, is renowned for its colossal size and captivating fragrance, akin to the scent of decomposing matter. With petals unfurling like deep red tapestries, the Corpse Flower remains a biological enigma, drawing scientists and nature enthusiasts into its captivating realm. Revered by indigenous cultures and hailed as both fascinating and bizarre, this remarkable creation offers a glimpse into the intricate interplay of life and decay within the Rainforest.</p>\n<p><img src=\"/corpse.png\" alt=\"Corpse\"></p>"
+        },
+        "_id": "post-2.md",
+        "_raw": {
+          "sourceFilePath": "post-2.md",
+          "sourceFileName": "post-2.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-2"
+        },
+        "type": "Post",
+        "slug": "post-2"
+      },
+      "documentHash": "1692363153163",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    },
+    "post-3.md": {
+      "document": {
+        "title": "Whispers of the Canopy - The Enigmatic White Uakari Monkey",
+        "date": "2021-12-24T00:00:00.000Z",
+        "category": "MYTHS",
+        "body": {
+          "raw": "\nDeep in the Amazon Rainforest, an enigmatic figure reigns—the Amazonian White Uakari Monkey (Cacajao spp.). Its striking white coat and vivid red face have woven a tapestry of myths among indigenous cultures. Yet, this primate is more than folklore. Feeding on fruits and seeds, it plays a vital role in the rainforest's rhythm, a living thread in the rich narrative of this complex ecosystem. Journey with us to explore the captivating realm of the Amazon's White Uakari Monkey, where myths and reality converge, adding another layer to the remarkable story of the rainforest.\n\n![Monkey](/monkey.png)\n",
+          "html": "<p>Deep in the Amazon Rainforest, an enigmatic figure reigns—the Amazonian White Uakari Monkey (Cacajao spp.). Its striking white coat and vivid red face have woven a tapestry of myths among indigenous cultures. Yet, this primate is more than folklore. Feeding on fruits and seeds, it plays a vital role in the rainforest's rhythm, a living thread in the rich narrative of this complex ecosystem. Journey with us to explore the captivating realm of the Amazon's White Uakari Monkey, where myths and reality converge, adding another layer to the remarkable story of the rainforest.</p>\n<p><img src=\"/monkey.png\" alt=\"Monkey\"></p>"
+        },
+        "_id": "post-3.md",
+        "_raw": {
+          "sourceFilePath": "post-3.md",
+          "sourceFileName": "post-3.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "post-3"
+        },
+        "type": "Post",
+        "slug": "post-3"
+      },
+      "documentHash": "1692363179281",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}

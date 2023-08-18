@@ -41,11 +41,11 @@ function BlogPage() {
     <div className="thumbnail-grid">
       <ul className="thumb">
         {posts.map((post) => (
-          <div className="thumbnail">
-            <li key={post.slug}>
+          <div key={post.slug} className="thumbnail">
+            <li>
               <Link href={`/blog/${post.slug}`}>
                 <Image
-                  className="nail"
+                  className="nailimg"
                   src={post.imageSrc}
                   alt="nail"
                   width={400}
