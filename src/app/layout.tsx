@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-
 import { Quicksand } from "next/font/google";
 
 const quicksand = Quicksand({ subsets: ["latin"], weight: "300" });
@@ -23,6 +22,7 @@ export default function RootLayout({
       <body className={quicksand.className}>
         <Header />
         {children}
+
         <Footer />
       </body>
     </html>

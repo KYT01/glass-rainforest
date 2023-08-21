@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Lora } from "next/font/google";
 import "./slug.css";
 import cover from "@/../public/cover.png";
+import Comments from "@/components/Comments";
 
 const lora = Lora({ subsets: ["latin"], weight: "400" });
 
@@ -50,6 +51,7 @@ export default function BlogPost({ params }: BlogPostParams) {
           />
           <p className="info">{post.content}</p>
         </div>
+        <Comments slug={params.slug} />
       </div>
     </div>
   );

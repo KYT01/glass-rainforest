@@ -50,6 +50,7 @@
   background: linear-gradient(70deg, transparent, rgba(255, 255, 255, 0.163));
   transition: transform 0.3s ease-in-out;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.327);
+  margin-bottom: 40px;
 }
 
 .thumbnail:hover {
@@ -57,12 +58,14 @@
 }
 
 .thumbnail-grid {
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
 }
 
 .thumb {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   margin: 2%;

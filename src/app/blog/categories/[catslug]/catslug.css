@@ -17,12 +17,12 @@
 }
 
 .thumbnail-grid {
-  margin-left: 4%;
-  margin-right: 4%;
+  display: grid;
 }
 
 .thumb {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   justify-content: space-between;
   margin: 2%;
