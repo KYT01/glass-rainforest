@@ -1,32 +1,21 @@
+import { WEBSITE_URL } from "config";
+import CommentForm from "./CommentForm";
+
 export default async function Comments({ slug }: { slug: string }) {
-  const commentsRes = await fetch(
-    `https://glass-rainforest.vercel.app//api/comments/${slug}`,
-    { next: { revalidate: 5 } }
-  );
-  const comments = await commentsRes.json();
-  console.log(comments);
+  let comments = [];
+  try {
+    const commentsRes = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, {
+      next: { revalidate: 5 },
+    });
+    comments = await commentsRes.json();
+  } catch (err) {
+    console.log(err);
+  }
+
   return (
-    <div className="form">
-      <form action={`/api/comments/${slug}`} method="POST">
-        <label htmlFor="username">Name</label>
-        <br />
-        <input
-          name="username"
-          className="text-black border-2 border-grey-400"
-        />
-        <br />
-        <label htmlFor="comment">Comment</label>
-        <br />
-        <textarea
-          name="comment"
-          cols={30}
-          rows={10}
-          className="text-black border-2 border-grey-400"
-        />
-        <br />
-        <br />
-        <button type="submit">Send Comment</button>
-      </form>
+    <div>
+      <CommentForm slug={slug} />
+
       <h3>Comments</h3>
       <ul>
         {/* @ts-ignore */}
