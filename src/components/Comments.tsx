@@ -1,7 +1,16 @@
 import { WEBSITE_URL } from "config";
 import CommentForm from "./CommentForm";
+import { currentUser } from "@clerk/nextjs";
+import type { User } from "@clerk/nextjs/api";
+import Link from "next/link";
 
-export default async function Comments({ slug }: { slug: string }) {
+export default async function Comments({
+  slug,
+  username,
+}: {
+  slug: string;
+  username: string;
+}) {
   let comments = [];
   try {
     const commentsRes = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, {
@@ -12,16 +21,26 @@ export default async function Comments({ slug }: { slug: string }) {
     console.log(err);
   }
 
+  const user: User | null = await currentUser();
+
   return (
     <div>
-      <CommentForm slug={slug} />
+      <h3 className="mb-4">Comments</h3>
 
-      <h3>Comments</h3>
+      {user ? (
+        <>
+          {/* @ts-ignore */}
+          <CommentForm slug={slug} username={user.username} />
+        </>
+      ) : (
+        <Link href="/sign-in">Please sign in to comment</Link>
+      )}
+
       <ul>
         {/* @ts-ignore */}
         {comments.map((comment) => {
           return (
-            <li key={comment.uuid}>
+            <li className="m-8" key={comment.uuid}>
               {comment.username} says...
               <br />
               {comment.comment}

@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { ClerkProvider } from "@clerk/nextjs";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -18,13 +19,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={quicksand.className}>
-        <Header />
-        {children}
+    <ClerkProvider>
+      <html lang="en">
+        <body className={quicksand.className}>
+          <Header />
+          {children}
 
-        <Footer />
-      </body>
-    </html>
+          <Footer />
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

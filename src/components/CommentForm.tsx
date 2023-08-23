@@ -36,20 +36,25 @@ export default function CommentForm({ slug }: { slug: string }) {
   }
 
   return (
-    <form onSubmit={handleFormSubmit} className="flex flex-col gap-4">
-      <label htmlFor="username">Name</label>
-      <input name="username" className="text-black border-2 border-grey-400" />
-      <label htmlFor="comment">Comment</label>
-      <textarea
-        name="comment"
-        cols={30}
-        rows={10}
-        className="text-black border-2 border-grey-400"
-        required
-      />
-      <button type="submit" disabled={isPending}>
-        {isPending ? "Sending..." : "Send Comment"}
-      </button>
-    </form>
+    <div className="flex justify-center">
+      <form onSubmit={handleFormSubmit} className="flex flex-col gap-4 w-6/12">
+        <label htmlFor="username">Name</label>
+        <input
+          name="username"
+          className="text-black border-2 border-grey-400"
+        />
+        <label htmlFor="comment">Comment</label>
+        <textarea
+          name="comment"
+          cols={10}
+          rows={10}
+          className="text-black border-2 border-grey-400 w-auto"
+          required
+        />
+        <button className="submit" type="submit" disabled={isPending}>
+          {isPending ? "Sending..." : "Send Comment"}
+        </button>
+      </form>
+    </div>
   );
 }
