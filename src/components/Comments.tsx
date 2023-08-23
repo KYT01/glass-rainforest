@@ -4,13 +4,7 @@ import { currentUser } from "@clerk/nextjs";
 import type { User } from "@clerk/nextjs/api";
 import Link from "next/link";
 
-export default async function Comments({
-  slug,
-  username,
-}: {
-  slug: string;
-  username: string;
-}) {
+export default async function Comments({ slug }: { slug: string }) {
   let comments = [];
   try {
     const commentsRes = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, {
