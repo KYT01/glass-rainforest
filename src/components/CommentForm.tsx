@@ -27,7 +27,7 @@ export default function CommentForm({
     formData.append("comment", comment);
 
     const options = { body: formData, method: "POST" };
-    const res = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, options);
+    const res = await fetch(`/api/comments/${slug}`, options);
     console.log(res);
 
     // @ts-ignore
