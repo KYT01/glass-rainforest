@@ -7,7 +7,7 @@ import Link from "next/link";
 export default async function Comments({ slug }: { slug: string }) {
   let comments = [];
   try {
-    const commentsRes = await fetch(`/api/comments/${slug}`, {
+    const commentsRes = await fetch(`${WEBSITE_URL}/api/comments/${slug}`, {
       next: { revalidate: 5 },
     });
     comments = await commentsRes.json();
