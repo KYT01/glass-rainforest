@@ -11,6 +11,7 @@ const lora = Lora({ subsets: ["latin"], weight: "400" });
 type BlogPostParams = {
   params: {
     slug: string;
+    username: string;
   };
 };
 
@@ -51,7 +52,7 @@ export default function BlogPost({ params }: BlogPostParams) {
           />
           <p className="info">{post.content}</p>
         </div>
-        <Comments slug={params.slug} />
+        <Comments slug={params.slug} username={params.username} />
       </div>
     </div>
   );
