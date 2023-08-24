@@ -23,8 +23,6 @@ export default async function Home() {
           myths whispered by indigenous communities, we delve into the
           unexplored corners and untold narratives that make the Amazon
           Rainforest a true enigma of the natural world.
-          <br />
-          <br />
           Whether you're a curious explorer, a seeker of truths, or simply
           captivated by the unknown, our blog is your portal to a tapestry of
           narratives that illuminate the intricacies of our world. Embark with
