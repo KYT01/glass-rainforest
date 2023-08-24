@@ -9,6 +9,7 @@ const CATEGORIES = [
 const POSTS = [
   {
     title: "Mysteries Unveiled: The Amazonian Jaguar",
+    date: "24/08/23",
     slug: "jaguar",
     category: "ANIMALS",
     imageSrc: "/jaguar.png",
@@ -17,6 +18,7 @@ const POSTS = [
   },
   {
     title: "Blossom of Intrigue: The Corpse Flower",
+    date: "23/08/23",
     slug: "corpse",
     category: "FAUNA",
     imageSrc: "/corpse.png",
@@ -25,6 +27,7 @@ const POSTS = [
   },
   {
     title: "Whispers of the Canopy: The Enigmatic White Uakari Monkey",
+    date: "22/08/23",
     slug: "monkey",
     category: "MYTHS",
     imageSrc: "/monkey.png",
@@ -33,6 +36,7 @@ const POSTS = [
   },
   {
     title: "Whispers of the Amazon: El Tunchi, the Mournful Spirit",
+    date: "21/08/23",
     slug: "spirit",
     category: "MYTHS",
     imageSrc: "/spirit.png",
@@ -41,6 +45,7 @@ const POSTS = [
   },
   {
     title: "Anaconda: Constrictor of Myths and Realities",
+    date: "20/08/23",
     slug: "anaconda",
     category: "ANIMALS",
     imageSrc: "/anaconda.png",
@@ -49,6 +54,7 @@ const POSTS = [
   },
   {
     title: "Ghost Orchid: Mysterious Beauty of the Amazon",
+    date: "19/08/23",
     slug: "ghost",
     category: "FAUNA",
     imageSrc: "/ghost.png",
@@ -57,6 +63,7 @@ const POSTS = [
   },
   {
     title: "Unveiling the Giant Water Lily: Aquatic Marvel of the Amazon",
+    date: "18/08/23",
     slug: "lily",
     category: "FAUNA",
     imageSrc: "/lily.png",
@@ -66,6 +73,7 @@ const POSTS = [
   {
     title:
       "Mystique of the Pink Amazon River Dolphin: Navigating Myths and Reality",
+    date: "17/08/23",
     slug: "dolphin",
     category: "ANIMALS",
     imageSrc: "/dolphin.png",
@@ -74,6 +82,7 @@ const POSTS = [
   },
   {
     title: "El Lobizón: Exploring the Werewolf Legend of South America",
+    date: "16/08/23",
     slug: "wolf",
     category: "MYTHS",
     imageSrc: "/wolf.png",

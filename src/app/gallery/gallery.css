@@ -1,0 +1,49 @@
+.gallery {
+  margin: 11%;
+  margin-top: 11%;
+}
+
+.container {
+  max-height: 800px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.photo1 {
+  max-height: 680px;
+  width: auto;
+  border-color: rgba(240, 248, 255, 0.503);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.container2 {
+  max-height: 995px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.photo2 {
+  max-height: 875px;
+  width: auto;
+  border-color: rgba(240, 248, 255, 0.503);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  border-color: rgba(240, 248, 255, 0.503);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.photographer {
+  font-size: 20px;
+}
+
+.imgcontainer {
+  margin-bottom: 20px;
+}

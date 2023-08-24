@@ -17,6 +17,9 @@ export default function Header() {
           <li className="button">
             <Link href="/blog">BLOG</Link>
           </li>
+          <li className="button">
+            <Link href="/gallery">GALLERY</Link>
+          </li>
           <li className="signin">
             <UserButton afterSignOutUrl="/" />
           </li>

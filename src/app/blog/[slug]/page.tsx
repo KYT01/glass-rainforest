@@ -49,7 +49,10 @@ export default function BlogPost({ params }: BlogPostParams) {
             width={400}
             height={400}
           />
-          <p className="info">{post.content}</p>
+          <div>
+            <p className="info">{post.date}</p>
+            <p className="info">{post.content}</p>
+          </div>
         </div>
         <Comments slug={params.slug} />
       </div>
